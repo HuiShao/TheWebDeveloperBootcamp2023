@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <!-- <button>OUTSITE FORM!</button> -->
+
+    <!-- <form action="/tacos">
+      <button type="submit">PLEASE DO NOT SUBMIT THE FORM</button>
+      <p>
+        <label for="username">Enter a user name</label>
+        <input
+          id="username"
+          ,
+          type="text"
+          placeholder="username"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="password">Enter a password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">Enter a color:</label>
+        <input id="color" type="color" name="color" />
+      </p>
+      <p>
+        <label for="number">Enter a number:</label>
+        <input
+          id="number"
+          type="number"
+          placeholder="enter a number"
+          name="number"
+        />
+      </p>
+      <button>Submit</button>
+      <input type="submit" value="Click me!" />
+    </form>
+    <hr />
+    <button>Not Inside Form</button>
+    <h2>Hijacking Searchese</h2>
+    <h3>Search Reddit</h3>
+    <form action="https://www.reddit.com/search">
+      <input type="text" name="q" placeholder="Search Reddit" />
+      <button>Search Reddit</button>
+    </form>
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" placeholder="Search Google" />
+      <button>Search Google</button>
+    </form>
+    <h3>Search YouTube</h3>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" placeholder="Search YouTube" />
+      <button>Search YouTube</button>
+    </form> -->
+
+    <h2>More Inputs</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" unchecked />
+      <label for="agree">I agree to everything</label>
+      <button>Submit</button>
+      <p>
+        <label for="xs">XS</label>
+        <input type="radio" name="size" id="xs" value="xs" />
+        <label for="s">S</label>
+        <input type="radio" name="size" id="s" value="s" />
+        <label for="m">M</label>
+        <input type="radio" name="size" id="m" value="m" />
+      </p>
+
+      <!-- <button>Submit</button> -->
+      <p>
+        <label for="entrySelect">Please Select an Entry</label>
+        <select name="entry" id="entrySelect">
+          <option value="1">Entry 1</option>
+          <option value="2">Entry 2</option>
+          <option value="3">Entry 3</option>
+        </select>
+      </p>
+      <!-- <button>Submit</button> -->
+      <p>
+        <label for="cheese">Amount of cheese:</label>
+        <input
+          type="range"
+          name="cheese_level"
+          id="cheese"
+          min="0"
+          max="100"
+          step="5"
+          value="15"
+        />
+      </p>
+      <p>
+        <label for="requests">Any Special Requests?</label><br />
+        <textarea
+          name="Requests?"
+          id="requests"
+          cols="40"
+          rows="5"
+          placeholder="Type something here"
+        ></textarea>
+      </p>
+    </form>
+
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter First Name</label>
+      <input type="text" name="first" id="first" required />
+      <p>
+        <label for="">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          minlength="5"
+          maxlength="20"
+          required
+        />
+      </p>
+      <p>
+        <!-- <input type="email" name="" id="" required /> -->
+        <input type="url" name="" id="" required />
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
