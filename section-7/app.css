@@ -1,0 +1,99 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #f1faee;
+}
+
+button{
+    font-size: 30px;
+    background-color: #e9c46a;
+}
+
+h1,h2 {
+    color: 1d3557;  
+}
+span {
+    color: #219ebc;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+.post a {
+    color: #e9c46a;
+}
+
+/* footer a {
+    color: #e63946;
+} */
+
+/* h2 + button {
+    font-size: 20px;
+} */
+
+footer > a {
+    color: #219ebc;
+}
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
+
+a:hover {
+    color: cyan;
+}
+.post:nth-of-type(2n) {
+    background-color: #a39798;
+    color: #f1faee;
+}
+
+h2::first-letter {
+    color: #e63946;
+    font-size: 50px;
+}
+
+p::selection {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+p::first-line {
+    color: purple;
+    font-size: 30px;
+}
+
+a::before {
+    content: '🔗';
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
+.post button:hover {
+    background-color: #e9c46a;
+    color: #f1faee;
+    /* font-size: 30px; */
+}
+
+.post button:active{
+    background-color: green;
+}
+
+#signup {
+    background-color: #283618;
+    color: #f1faee;
+}
+
